@@ -4,7 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "predev": "node ../scripts/security-guard.js",
+    "prebuild": "node ../scripts/security-guard.js",
+    "prestart": "node ../scripts/security-guard.js"
   },
   "keywords": [],
   "author": "",
